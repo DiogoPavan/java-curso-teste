@@ -1,0 +1,44 @@
+ <c:out value="${'bem vindo carai'}" /> 
+
+<c:import var="data" url="https://google.com.br" />
+<c:out value="${data}"></c:out>
+
+<c:set var="data" scope="page" value="${500*5}" />
+<c:remove var="data"/>
+
+<c:out value="${data}" /> 
+
+<c:catch var="erro">
+	<% int var = 100/2; %>
+</c:catch>	
+<c:if test="${erro != null}">
+	${erro.message}
+</c:if> 
+
+<c:choose>
+	<c:when test="${numero > 50}">
+		<c:out value="${'maior que 50'}"></c:out>
+	</c:when>
+	<c:when test="${numero < 50}">
+		<c:out value="${'menor que 50'}"></c:out>
+	</c:when>
+	<c:otherwise>
+		<c:out value="${'que tu fez'}"></c:out>
+	</c:otherwise>
+</c:choose>
+
+
+<c:forEach var="n" begin="1" end="${numero}">
+	Item: ${n} 
+	<br/>
+</c:forEach>
+
+<c:forTokens items="Diogo-Reis-Pavan" delims="-" var="nome">
+	nome: <c:out value="${nome}"></c:out>
+	<br/>
+</c:forTokens>
+
+<c:url value="cabecalho.jsp" var="cabecalho">
+	<c:param name="param1" value="123" />
+	<c:param name="param2" value="33" />
+</c:url>

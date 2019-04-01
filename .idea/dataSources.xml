@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="AzurePostgres" uuid="12d5f67d-bad8-4bb6-9785-24b2b586d6f2">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://banco-java-curso.postgres.database.azure.com:5432/postgres</jdbc-url>
+    </data-source>
+  </component>
+</project>
