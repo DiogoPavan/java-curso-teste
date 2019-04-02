@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="curso-jsp:war exploded" />
+      <artifact name="cursojsp" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74cf5139-109a-438b-93e6-05261f067fe8" name="Default" comment="" />
+    <list default="true" id="74cf5139-109a-438b-93e6-05261f067fe8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/curso_jsp_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cursojsp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/beans/BeanCurso.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/beans/BeanCurso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/connection/SingleConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/connection/SingleConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/dao/DaoUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/dao/DaoUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/servlet/TelefoneServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/servlet/TelefoneServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/servlet/UsuarioServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/servlet/UsuarioServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/connection/SingleConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/connection/SingleConnection.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,20 +96,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingleConnection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SingleConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="-216">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12d5f67d-bad8-4bb6-9785-24b2b586d6f2/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="338">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
             </state>
           </provider>
         </entry>
@@ -153,6 +164,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebContent/cadastroTelefone.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
@@ -164,8 +178,8 @@
         <option value="$PROJECT_DIR$/src/dao/DaoUsuario.java" />
         <option value="$PROJECT_DIR$/src/servlet/UsuarioServlet.java" />
         <option value="$PROJECT_DIR$/WebContent/cadastroUsuario.jsp" />
-        <option value="$PROJECT_DIR$/src/connection/SingleConnection.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/12d5f67d-bad8-4bb6-9785-24b2b586d6f2/console.sql" />
+        <option value="$PROJECT_DIR$/src/connection/SingleConnection.java" />
       </list>
     </option>
   </component>
@@ -191,14 +205,13 @@
     <option name="width" value="1277" />
     <option name="height" value="872" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +223,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,9 +235,9 @@
     <property name="last_opened_file_path" value="C:/apache-tomcat-7.0.92/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -242,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Azure Web App.Azure Web App: curso-jsp:curso-jsp">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -288,7 +303,7 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="curso-jsp:war exploded">
+        <artifact name="cursojsp">
           <settings>
             <option name="CONTEXT_PATH" value="/curso-jsp" />
           </settings>
@@ -352,10 +367,46 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="curso-jsp:war exploded" />
+          <artifact name="cursojsp" />
         </option>
       </method>
     </configuration>
+    <configuration name="Azure Web App: curso-jsp:curso-jsp" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App" editBeforeRun="true">
+      <option name="OS" value="linux" />
+      <option name="appServicePlanId" value="" />
+      <option name="appServicePlanName" value="" />
+      <option name="creatingAppServicePlan" value="false" />
+      <option name="creatingNew" value="false" />
+      <option name="creatingResGrp" value="false" />
+      <option name="deployToRoot" value="false" />
+      <option name="deployToSlot" value="false" />
+      <option name="jdkVersion">
+        <JavaVersion />
+      </option>
+      <option name="newSlotConfigurationSource" />
+      <option name="newSlotName" />
+      <option name="pricing" value="" />
+      <option name="region" value="" />
+      <option name="resourceGroup" value="" />
+      <option name="slotName" />
+      <option name="stack" value="TOMCAT" />
+      <option name="subscriptionId" value="034eb483-7a1f-4b72-980b-69acc9f26b4e" />
+      <option name="targetName" value="cursojsp.war" />
+      <option name="targetPath" value="$PROJECT_DIR$/out/artifacts/cursojsp/cursojsp.war" />
+      <option name="version" value="8.5-jre8" />
+      <option name="webAppId" value="/subscriptions/034eb483-7a1f-4b72-980b-69acc9f26b4e/resourceGroups/java-site/providers/Microsoft.Web/sites/java-site" />
+      <option name="webAppName" value="" />
+      <option name="webContainer" value="" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cursojsp" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
+      <item itemvalue="Azure Web App.Azure Web App: curso-jsp:curso-jsp" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -370,21 +421,26 @@
       <workItem from="1553735912649" duration="816000" />
       <workItem from="1553811877842" duration="4011000" />
       <workItem from="1554076492084" duration="4737000" />
-      <workItem from="1554159443566" duration="2809000" />
+      <workItem from="1554159443566" duration="4902000" />
+      <workItem from="1554165871477" duration="1688000" />
+      <workItem from="1554168559295" duration="1016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12373000" />
+    <option name="totallyTimeSpent" value="17170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1371" y="-140" width="1277" height="872" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Azure Explorer" order="2" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Azure Activity Log" order="7" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" visible="true" weight="0.19825536" />
@@ -398,20 +454,23 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="HDInsight Spark Submission" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896462" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.32896462" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09595559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124504365" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Remote Spark Job in Cluster" order="7" />
+      <window_info anchor="bottom" id="Debug Remote Spark Job in Cluster" order="7" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Console" order="14" visible="true" weight="0.32896462" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,13 +484,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/connection/SingleConnection.java</url>
-          <line>56</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/connection/SingleConnection.java</url>
-          <line>51</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -449,6 +508,110 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3995">
+          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/cadastroUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="97" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/UsuarioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DaoUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/BeanCurso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12d5f67d-bad8-4bb6-9785-24b2b586d6f2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3995">
+          <caret line="235" column="29" selection-start-line="235" selection-start-column="29" selection-end-line="235" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/cadastroUsuario.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="97" selection-start-line="82" selection-start-column="97" selection-end-line="82" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/UsuarioServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DaoUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/BeanCurso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12d5f67d-bad8-4bb6-9785-24b2b586d6f2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -668,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://12d5f67d-bad8-4bb6-9785-24b2b586d6f2/database/postgres/schema/public/table/usuario">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -687,8 +843,15 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/12d5f67d-bad8-4bb6-9785-24b2b586d6f2/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="338">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connection/SingleConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -698,11 +861,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>curso-jsp:war exploded</last-edited>
+          <last-edited>cursojsp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.1150748" />
                 <option value="0.5" />
               </list>
             </option>
